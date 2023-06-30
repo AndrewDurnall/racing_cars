@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+1+Code&display=swap" rel="stylesheet">
+    <title>Racing Cars - By Andrew Durnall</title>
+</head>
+
+<body>
+    <div id="myPage">
+        <header>
+            <h1>Higher or Lower?<span style="color:#6297E0;"> By Andrew Durnall</h1>
+            <p class="leadP"><a class="repoLink" href="https://github.com/AndrewDurnall/higher_lower"
+                    target="_blank">GitHub
+                    Repository</a></p>
+            <p class="leadP">This game was created using Object Orientated Javascript and a canvas, the cars colours are
+                randomly picked from a colour API.</p>
+            <p class="leadP">The race will have a random winner each time! (Winner is announced under the race,
+                sometimes the cars appear to be joint first but the game knows who won!).</p>
+            <p class="leadP">Enjoy!</p>
+
+        </header>
+        <main>
+
+            <canvas id="canvas" width="1200" height="800">
+                Fall back comment if canvas not supported.
+            </canvas>
+            <p class="leadP" id="commentator">Click the "Start The Race" Button to Start the Race</p>
+            <div id="butns">
+                <button id="start" type="button">Start The Race</button>
+                <button id="reset" type="button">Restart The Race</button>
+            </div>
+
+        </main>
+    </div>
+    <script src="main.js"></script>
+</body>
+
+
+</html>
