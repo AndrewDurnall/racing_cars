@@ -97,7 +97,7 @@ class Car {
 
     drawCircle(x, y, size) {
         ctx.beginPath();
-        ctx.fillStyle = "grey";
+        ctx.fillStyle = "blue";
         ctx.arc(x, y, size, 0, 2 * Math.PI);
         ctx.fill();
     }
